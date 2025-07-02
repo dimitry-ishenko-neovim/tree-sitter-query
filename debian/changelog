@@ -1,5 +1,23 @@
-tree-sitter-query (0.6.2-1) UNRELEASED; urgency=medium
+tree-sitter-query (0.6.2-1) unstable; urgency=medium
 
-  * Initial release.
+  [ Dimitry Ishenko ]
+  * Add Debian packaging
 
- -- Dimitry Ishenko <dimitry.ishenko@gmail.com>  Wed, 02 Jul 2025 10:39:00 -0400
+  [ Christian Clason ]
+  * release v0.6.2
+
+  [ Riley Bruins ]
+  * fix: disallow `$` from identifiers
+
+  [ dependabot[bot] ]
+  * build(deps-dev): bump tar-fs from 2.1.2 to 2.1.3
+
+  [ Christian Clason ]
+  * chore: regenerate parser with v0.25.5
+  * ci(publish): add workflow
+
+  [ Riley Bruins ]
+  * fix: align escape sequences to the query.c logic
+  * fix: use token.immediate() on end string quote
+
+ -- Dimitry Ishenko <dimitry.ishenko@gmail.com>  Wed, 02 Jul 2025 11:58:29 -0400
