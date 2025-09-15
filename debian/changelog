@@ -1,3 +1,21 @@
+tree-sitter-query (0.7.0-1) unstable; urgency=medium
+
+  [ Dimitry Ishenko ]
+  * Merge tag 'v0.7.0'
+
+  [ Christian Clason ]
+  * release v0.7.0
+  * feat(cargo)!: rename package to tree-sitter-tsquery
+  * chore: tree-sitter 0.25.9
+  * chore: update queries from nvim-treesitter
+  * ci: validate queries with ts_query_ls
+  * ci: run on macos-latest
+
+  [ Riley Bruins ]
+  * fix: support predicates without parameters
+
+ -- Dimitry Ishenko <dimitry.ishenko@gmail.com>  Mon, 15 Sep 2025 12:30:40 -0400
+
 tree-sitter-query (0.6.2-2) unstable; urgency=medium
 
   * d/copyright: simplify
